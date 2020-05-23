@@ -1,4 +1,11 @@
-def Song
-  @name = name
-  @artist = artist
-  @genre = genre
+class Song
+
+  def name=(name)
+    @name = name
+  end
+
+  def artist=(artist)
+    @artist = artist
+  end
+
+  def 
